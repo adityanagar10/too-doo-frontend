@@ -10,15 +10,15 @@ export default function Documentation() {
       <Text className={classes.subtitle}>Overview</Text>
       <Text>
         Welcome to the comprehensive documentation hub for Too-Doo CLI! Here,
-        you'll uncover detailed guides, step-by-step tutorials, and thorough API
-        references, meticulously crafted to elevate your proficiency with
+        you will uncover detailed guides, step-by-step tutorials, and thorough
+        API references, meticulously crafted to elevate your proficiency with
         Too-Doo CLI to new heights.
       </Text>
       <Text className={classes.subtitle}>Installation</Text>
       <Text>
         At present, our installation process exclusively supports Homebrew for
         seamless command-line integration. Fear not! The binaries you seek are
-        just a click away. Let's delve into installing Too-Doo via Homebrew, a
+        just a click away. Let us delve into installing Too-Doo via Homebrew, a
         process as straightforward as:
       </Text>
       <Code block>
@@ -27,7 +27,7 @@ brew tap adityanagar10/adityanagar10
 brew install adityanagar10/adityanagar10/too-doo
         `}
       </Code>
-      <Text>And voilà! You're all set to embark on your Too-Doo journey.</Text>
+      <Text>And voilà! You are all set to embark on your Too-Doo journey.</Text>
       <Text className={classes.subtitle}>Usage</Text>
       <List>
         <List.Item>
@@ -49,7 +49,7 @@ brew install adityanagar10/adityanagar10/too-doo
           <Text>
             <Code block>too-doo complete TaskID</Code>
             Marking Tasks as Complete: Indicate task completion with , appending
-            the task's unique ID for streamlined task management.
+            the unique ID for the task for streamlined task management.
           </Text>
         </List.Item>
         <List.Item>
