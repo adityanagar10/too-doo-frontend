@@ -2,6 +2,7 @@
 
 import { Text, Code, List } from "@mantine/core";
 import classes from "./page.module.css";
+import Link from "next/link";
 
 export default function Documentation() {
   return (
@@ -18,8 +19,12 @@ export default function Documentation() {
       <Text>
         At present, our installation process exclusively supports Homebrew for
         seamless command-line integration. Fear not! The binaries you seek are
-        just a click away. Let us delve into installing Too-Doo via Homebrew, a
-        process as straightforward as:
+        just a{" "}
+        <Link href='https://github.com/adityanagar10/too-doo/releases'>
+          click away
+        </Link>
+        . Let us delve into installing Too-Doo via Homebrew, a process as
+        straightforward as:
       </Text>
       <Code block>
         {`

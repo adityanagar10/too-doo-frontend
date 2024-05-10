@@ -1,4 +1,4 @@
-import { Image, Container, Title, Button, Group, Text } from "@mantine/core";
+import { Image, Title, Button, Group, Text } from "@mantine/core";
 import classes from "./Hero.module.css";
 import TerminalImage from "../../../public/assets/terminal.svg";
 
@@ -37,6 +37,7 @@ export default function HeroBullets() {
       </div>
       <Image
         alt='terminal-image'
+        className={classes.image}
         src={TerminalImage.src}
         width={506}
         height={253}

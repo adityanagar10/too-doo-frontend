@@ -6,8 +6,9 @@ import { HeaderMenu } from "./components/header/Header";
 import { FooterSimple } from "./components/footer/Footer";
 
 export const metadata = {
-  title: "Mantine Next.js template",
-  description: "I am using Mantine with Next.js!",
+  title: "Too Doo </>",
+  description:
+    "Too Doo is a CLI task management application that allows you to add, delete, complete, and view tasks directly from your terminal",
 };
 
 export default function RootLayout({ children }: { children: any }) {

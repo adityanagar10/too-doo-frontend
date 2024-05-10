@@ -3,6 +3,8 @@
 import { Group, Burger, Container } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import classes from "./Header.module.css";
+import TooDoo from "../../../public/assets/toodoo.svg";
+import Image from "next/image";
 
 const links = [
   { link: "/about", label: "Features" },
@@ -10,6 +12,10 @@ const links = [
   {
     link: "https://github.com/adityanagar10/too-doo/releases",
     label: "Releases",
+  },
+  {
+    link: "https://twitter.com/includebitslab",
+    label: "Contact Me",
   },
 ];
 
@@ -26,8 +32,9 @@ export function HeaderMenu() {
 
   return (
     <header className={classes.header}>
-      <Container size='md'>
+      <Container size='xl'>
         <div className={classes.inner}>
+          <Image alt='too-doo logo' src={TooDoo.src} width={192} height={108} />
           <Group gap={5} visibleFrom='sm'>
             {items}
           </Group>
