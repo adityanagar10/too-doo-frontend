@@ -20,7 +20,7 @@ const features = [
     icon: IconReceiptOff,
     title: "Free and open source",
     description:
-      "All packages are published under MIT license, you can use Mantine in any project",
+      "All packages are published under MIT license, you can use TooDoo in any project",
   },
   {
     icon: IconBrandGolang,
