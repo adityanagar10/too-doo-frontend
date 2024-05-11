@@ -21,7 +21,7 @@ export function FooterSimple() {
 
   return (
     <div className={classes.footer}>
-      <Container className={classes.inner}>
+      <Container size='xl' className={classes.inner}>
         <Text c='dimmed'>
           Made with 💙 by{" "}
           <Anchor<"a"> href='https://twitter.com/includebitslab'>
